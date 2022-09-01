@@ -1,0 +1,43 @@
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.home .subtitle {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.container {
+  padding: 16px;
+  max-width: 800px;
+}
+
+.form-field {
+  width: 200px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}

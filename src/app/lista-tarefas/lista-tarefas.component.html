@@ -1,0 +1,29 @@
+<mat-card class="home mat-elevation-z2">
+  <mat-card-title class="title"> Lista de Tarefas </mat-card-title>
+  <mat-card-subtitle class="subtitle">
+    Organize suas tarefas diárias!
+  </mat-card-subtitle>
+</mat-card>
+
+<div class="container">
+  <div>
+    <mat-card-title>Tarefas</mat-card-title>
+    <form>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Título da tarefa</mat-label>
+        <input matInput placeholder="Ex. Despertador." value="Despertador" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Descrição</mat-label>
+        <textarea
+          matInput
+          placeholder="Ex. Ativar o despertador..."
+          value="Ativar o despertador"
+        ></textarea>
+      </mat-form-field>
+    </form>
+      <div>
+        <button mat-raised-button>Adicionar</button>
+      </div>
+  </div>
+</div>
